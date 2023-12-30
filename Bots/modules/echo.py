@@ -27,11 +27,11 @@ async def echo(event):
             user_id = reply_msg.sender_id
 
             if user_id in ALTRON:
-                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ.")
+                await event.reply("NO, THIS GUY IS DEVILX'S OWNER ❌")
             elif user_id == OWNER_ID:
-                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ.")
+                await event.reply("NO, THIS GUY IS OWNER OF THESE BOTS ❌")
             elif user_id in SUDO_USERS:
-                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ.")
+                await event.reply(" 𝓝𝓞, 𝓣𝓗𝓘𝓢 𝓖𝓤𝓨 𝓘𝓢 𝓐 𝓢𝓤𝓓𝓞 𝓤𝓢𝓔𝓡 ❌")
             else:
                 try:
                     alt = Get(base64.b64decode('QFRoZUFsdHJvbg=='))
@@ -42,12 +42,12 @@ async def echo(event):
                 global ECHO
                 check = f"{user_id}_{event.chat_id}"
                 if check in ECHO:
-                    await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴏɴ ᴛʜɪꜱ ᴜꜱᴇʀ !!")
+                    await event.reply("» ECHO IS ALREADY ACTIVATED ON THIS USER ✅ !!")
                 else:
                     ECHO.append(check)
-                    await event.reply("» ᴇᴄʜᴏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ ✅")
+                    await event.reply("» 𝓔𝓒𝓗𝓞 𝓐𝓒𝓣𝓘𝓥𝓐𝓣𝓔𝓓 𝓞𝓝 𝓣𝓗𝓔 𝓤𝓢𝓔𝓡 ✅")
         else:
-            await event.reply(f"𝗘𝗰𝗵𝗼:\n  » {hl}echo <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await event.reply(f"𝗘𝗰𝗵𝗼:\n  » {hl}𝓔𝓒𝓗𝓞 <𝓡𝓔𝓟𝓛𝓨 𝓣𝓞 𝓐 𝓤𝓢𝓔𝓡>")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
@@ -75,11 +75,11 @@ async def rmecho(event):
 
             if check in ECHO:
                 ECHO.remove(check)
-                await event.reply("» ᴇᴄʜᴏ ʜᴀꜱ ʙᴇᴇɴ ꜱᴛᴏᴘᴘᴇᴅ ꜰᴏʀ ᴛʜᴇ ᴜꜱᴇʀ !! ☑️")
+                await event.reply("» 𝓔𝓒𝓗𝓞 𝓗𝓐𝓢 𝓑𝓔𝓔𝓝 𝓢𝓣𝓞𝓟𝓟𝓔𝓓 𝓕𝓞𝓡 𝓣𝓗𝓔 𝓤𝓢𝓔𝓡 !! ✅")
             else:
-                await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴅɪꜱᴀʙʟᴇᴅ !!")
+                await event.reply("»𝓔𝓒𝓗𝓞 𝓘𝓢 𝓐𝓛𝓡𝓔𝓐𝓓𝓨 𝓓𝓘𝓢𝓐𝓑𝓛𝓔𝓓 !! 👀")
         else:
-            await event.reply(f"𝗥𝗲𝗺𝗼𝘃𝗲 𝗘𝗰𝗵𝗼:\n  » {hl}rmecho <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await event.reply(f"𝗥𝗲𝗺𝗼𝘃𝗲 𝗘𝗰𝗵𝗼:\n  » {hl} 𝓡𝓜𝓔𝓒𝓗𝓞 <𝓡𝓔𝓟𝓛𝓨 𝓣𝓞 𝓐 𝓤𝓢𝓔𝓡>")
 
 
 @X1.on(events.NewMessage(incoming=True))
