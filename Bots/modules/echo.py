@@ -47,7 +47,7 @@ async def echo(event):
                     ECHO.append(check)
                     await event.reply("» 𝓔𝓒𝓗𝓞 𝓐𝓒𝓣𝓘𝓥𝓐𝓣𝓔𝓓 𝓞𝓝 𝓣𝓗𝓔 𝓤𝓢𝓔𝓡 ✅")
         else:
-            await event.reply(f"𝗘𝗰𝗵𝗼:\n  » {hl}𝓔𝓒𝓗𝓞 <𝓡𝓔𝓟𝓛𝓨 𝓣𝓞 𝓐 𝓤𝓢𝓔𝓡>")
+            await event.reply(f"𝓔𝓒𝓗𝓞:\n  » {hl}𝓔𝓒𝓗𝓞 <𝓡𝓔𝓟𝓛𝓨 𝓣𝓞 𝓐 𝓤𝓢𝓔𝓡>")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%srmecho(?: |$)(.*)" % hl))
@@ -79,7 +79,7 @@ async def rmecho(event):
             else:
                 await event.reply("»𝓔𝓒𝓗𝓞 𝓘𝓢 𝓐𝓛𝓡𝓔𝓐𝓓𝓨 𝓓𝓘𝓢𝓐𝓑𝓛𝓔𝓓 !! 👀")
         else:
-            await event.reply(f"𝗥𝗲𝗺𝗼𝘃𝗲 𝗘𝗰𝗵𝗼:\n  » {hl} 𝓡𝓜𝓔𝓒𝓗𝓞 <𝓡𝓔𝓟𝓛𝓨 𝓣𝓞 𝓐 𝓤𝓢𝓔𝓡>")
+            await event.reply(f"𝓡𝓔𝓜𝓞𝓥𝓔 𝓔𝓒𝓗𝓞:\n  » {hl} 𝓡𝓜𝓔𝓒𝓗𝓞 <𝓡𝓔𝓟𝓛𝓨 𝓣𝓞 𝓐 𝓤𝓢𝓔𝓡>")
 
 
 @X1.on(events.NewMessage(incoming=True))
