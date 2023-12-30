@@ -27,9 +27,9 @@ async def echo(event):
             user_id = reply_msg.sender_id
 
             if user_id in ALTRON:
-                await event.reply("NO, THIS GUY IS DEVILX'S OWNER ❌")
+                await event.reply("𝓝𝓞, 𝓣𝓗𝓘𝓢 𝓖𝓤𝓨 𝓘𝓢 𝓓𝓔𝓥𝓘𝓛𝓧'𝓢 𝓞𝓦𝓝𝓔𝓡 ❌")
             elif user_id == OWNER_ID:
-                await event.reply("NO, THIS GUY IS OWNER OF THESE BOTS ❌")
+                await event.reply("𝓝𝓞, 𝓣𝓗𝓘𝓢 𝓖𝓤𝓨 𝓘𝓢 𝓞𝓦𝓝𝓔𝓡 𝓞𝓕 𝓣𝓗𝓔𝓢𝓔 𝓑𝓞𝓣𝓢 ❌")
             elif user_id in SUDO_USERS:
                 await event.reply(" 𝓝𝓞, 𝓣𝓗𝓘𝓢 𝓖𝓤𝓨 𝓘𝓢 𝓐 𝓢𝓤𝓓𝓞 𝓤𝓢𝓔𝓡 ❌")
             else:
@@ -42,7 +42,7 @@ async def echo(event):
                 global ECHO
                 check = f"{user_id}_{event.chat_id}"
                 if check in ECHO:
-                    await event.reply("» ECHO IS ALREADY ACTIVATED ON THIS USER ✅ !!")
+                    await event.reply("» 𝓔𝓒𝓗𝓞 𝓘𝓢 𝓐𝓛𝓡𝓔𝓐𝓓𝓨 𝓐𝓒𝓣𝓘𝓥𝓐𝓣𝓔𝓓 𝓞𝓝 𝓣𝓗𝓘𝓢 𝓤𝓢𝓔𝓡 ✅ !!")
                 else:
                     ECHO.append(check)
                     await event.reply("» 𝓔𝓒𝓗𝓞 𝓐𝓒𝓣𝓘𝓥𝓐𝓣𝓔𝓓 𝓞𝓝 𝓣𝓗𝓔 𝓤𝓢𝓔𝓡 ✅")
