@@ -1,6 +1,6 @@
 {
-    "name": "AXEN HERE.",
-    "logo": "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+    "name": "𝓓𝓔𝓥𝓘𝓛 𝓧 🍷",
+    "logo": "https://graph.org/file/b47ffa55d5c3c3d9b047b.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/ItZxSTaR/XBOTS",
+    "repository": "https://t.me/UNI_INDIA_0000",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
@@ -62,7 +62,7 @@
       },
       "CMD_HNDLR": {
         "description": "Custom command handler.",
-        "value": ".",
+        "value": "!",
         "required": false
       },
       "SUDO_USERS": {
@@ -72,7 +72,7 @@
       },
       "OWNER_ID": {
         "description": "Owner Id",
-        "value": "",
+        "value": "6180051867",
         "required": true
       },
       "HEROKU_API_KEY": {
