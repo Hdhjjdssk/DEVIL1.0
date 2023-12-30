@@ -3,19 +3,19 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 𝙓𝘽𝙤𝙩𝙨 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @PyXen**"
+HELP_STRING = f"𝓓𝓔𝓥𝓘𝓛 𝓧 𝓗𝓔𝓛𝓟 𝓜𝓔𝓝𝓤 🍷\n\n» **𝓒𝓛𝓘𝓒𝓚 𝓞𝓝 𝓑𝓔𝓛𝓞𝓦 𝓑𝓤𝓣𝓣𝓞𝓝𝓢 𝓕𝓞𝓡 𝓗𝓔𝓛𝓟**\n» **𝓓𝓔𝓥𝓔𝓛𝓞𝓟𝓔𝓡: @Lucky9486**"
 
 HELP_BUTTON = [
     [
-      Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-      Button.inline("• ʀᴀɪᴅ •", data="raid")
+      Button.inline("• 𝓢𝓟𝓐𝓜 •", data="spam"),
+      Button.inline("• 𝓡𝓐𝓘𝓓 •", data="raid")
     ],
     [
-      Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+      Button.inline("• 𝓔𝓧𝓣𝓡𝓐 •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
+      Button.url("• 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 •", "https://t.me/Lucky9486"),
+      Button.url("• 𝓢𝓤𝓟𝓟𝓞𝓡𝓣 •", "https://t.me/UNI_INDIA_0000")
     ]
   ]
 
@@ -34,82 +34,83 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+              "https://graph.org/file/b47ffa55d5c3c3d9b047b.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
         except Exception as e:
-            await event.client.send_message(event.chat_id, f"An Exception Occured!\n\n**ERROR:** {str(e)}")
+            await event.client.send_message(event.chat_id, f"𝓐𝓝 𝓔𝓧𝓒𝓔𝓟𝓣𝓘𝓞𝓝 𝓞𝓒𝓒𝓤𝓡𝓔𝓓 !\n\n**𝓔𝓡𝓡𝓞𝓡:** {str(e)}")
 
 
 extra_msg = f"""
-**» ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ:**
+**» 
+𝓔𝓧𝓣𝓡𝓐 𝓒𝓞𝓜𝓜𝓐𝓝𝓓 👾:**
 
-𝗨𝘀𝗲𝗿𝗕𝗼𝘁: **ᴜꜱᴇʀʙᴏᴛ ᴄᴍᴅꜱ**
-  1) {hl}ping 
-  2) {hl}reboot
-  3) {hl}sudo <reply to user>  --> Owner Cmd
-  4) {hl}logs --> Owner Cmd
+𝓤𝓢𝓔𝓡𝓑𝓞𝓣: **𝓤𝓢𝓔𝓡𝓑𝓞𝓣 𝓒𝓜𝓓𝓢**
+  1) {hl}𝓟𝓘𝓝𝓖
+  2) {hl}𝓡𝓔𝓑𝓞𝓞𝓣
+  3) {hl}𝓢𝓤𝓓𝓞 <𝓻𝓮𝓹𝓵𝔂 𝓽𝓸 𝓾𝓼𝓮𝓻> --> 𝓞𝓦𝓝𝓔𝓡 𝓒𝓜𝓓
+  4) {hl}𝓛𝓞𝓖𝓢 --> 𝓞𝓦𝓝𝓔𝓡 𝓒𝓜𝓓
 
-𝗘𝗰𝗵𝗼: **ᴛᴏ ᴀᴄᴛɪᴠᴇ ᴇᴄʜᴏ ᴏɴ ᴀɴʏ ᴜꜱᴇʀ**
-  1) {hl}echo <reply to user>
-  2) {hl}rmecho <reply to user>
+𝓔𝓒𝓗𝓞: **𝓣𝓞 𝓐𝓒𝓣𝓘𝓥𝓐𝓣𝓔 𝓔𝓒𝓗𝓞 𝓞𝓝 𝓐𝓝𝓨 𝓤𝓢𝓔𝓡**
+  1) {hl}𝓔𝓒𝓗𝓞 <𝓻𝓮𝓹𝓵𝔂 𝓽𝓸 𝓾𝓼𝓮𝓻>
+  2) {hl}𝓡𝓜𝓔𝓒𝓗𝓞 <𝓻𝓮𝓹𝓵𝔂 𝓽𝓸 𝓾𝓼𝓮𝓻>
 
-𝗟𝗲𝗮𝘃𝗲: **ᴛᴏ ʟᴇᴀᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ**
-  1) {hl}leave <group/chat id>
-  2) {hl}leave : Type in the Group bot will auto leave that group
+𝓛𝓔𝓐𝓥𝓔: **𝓣𝓞 𝓛𝓔𝓐𝓥𝓔 𝓖𝓡𝓞𝓤𝓟**
+  1) {hl}𝓛𝓔𝓐𝓥𝓔 <𝓰𝓻𝓸𝓾𝓹/𝓬𝓱𝓪𝓽 𝓲𝓭>
+  2) {hl}𝓛𝓔𝓐𝓥𝓔 : 𝓣𝓨𝓟𝓔 𝓘𝓝 𝓣𝓗𝓔 𝓖𝓡𝓞𝓤𝓟 𝓑𝓞𝓣 𝓦𝓘𝓛𝓛 𝓐𝓤𝓣𝓞 𝓛𝓔𝓐𝓥𝓔 𝓣𝓗𝓐𝓣 𝓖𝓡𝓞𝓤𝓟
 
 
-**© @PyXen**
+**@Lucky9486**
 """
 
                  
 raid_msg = f"""
-**» ʀᴀɪᴅ ᴄᴏᴍᴍᴀɴᴅꜱ:**
+**» 𝓡𝓐𝓘𝓓 𝓒𝓞𝓜𝓜𝓐𝓝𝓓𝓢:**
 
-𝗥𝗮𝗶𝗱: **ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜꜱᴇʀ ꜰᴏʀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.**
-  1) {hl}raid <count> <username>
-  2) {hl}raid <count> <reply to user>
+𝓡𝓐𝓘𝓓: **𝓐𝓒𝓣𝓘𝓥𝓐𝓣𝓔𝓢 𝓡𝓐𝓘𝓓 𝓞𝓝 𝓐𝓝𝓨 𝓘𝓝𝓓𝓘𝓥𝓘𝓓𝓤𝓐𝓛 𝓤𝓢𝓔𝓡 𝓕𝓞𝓡 𝓖𝓘𝓥𝓔𝓝 𝓡𝓐𝓝𝓖𝓔**
+  1) {hl}𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓾𝓼𝓮𝓻𝓷𝓪𝓶𝓮>
+  2) {hl}𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓻𝓮𝓹𝓵𝔂 𝓽𝓸 𝓾𝓼𝓮𝓻>
 
-𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: **ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ.**
-  1) {hl}rraid <replying to user>
-  2) {hl}rraid <username>
+𝓡𝓔𝓟𝓛𝓨 𝓡𝓐𝓘𝓓: **𝓐𝓒𝓣𝓘𝓥𝓐𝓣𝓔𝓢 𝓡𝓔𝓟𝓛𝓨 𝓡𝓐𝓘𝓓 𝓞𝓝 𝓤𝓢𝓔𝓡**
+  1) {hl}𝓡𝓡𝓐𝓘𝓓 <𝓻𝓮𝓹𝓵𝔂𝓲𝓷𝓰 𝓽𝓸 𝓾𝓼𝓮𝓻>
+  2) {hl}𝓡𝓡𝓐𝓘𝓓 <𝓾𝓼𝓮𝓻𝓷𝓪𝓶𝓮>
 
-𝗗𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: **ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ.**
-  1) {hl}drraid <replying to user>
-  2) {hl}drraid <username>
+𝓓𝓡𝓔𝓟𝓛𝓨 𝓡𝓐𝓘𝓓: **𝓓𝓔𝓐𝓒𝓣𝓘𝓥𝓐𝓣𝓔𝓢 𝓡𝓔𝓟𝓛𝓨 𝓡𝓐𝓘𝓓 𝓞𝓝 𝓤𝓢𝓔𝓡**
+  1) {hl}𝓓𝓡𝓡𝓐𝓘𝓓 <𝓻𝓮𝓹𝓵𝔂𝓲𝓷𝓰 𝓽𝓸 𝓾𝓼𝓮𝓻>
+  2) {hl}𝓓𝓡𝓡𝓐𝓘𝓓 <𝓾𝓼𝓮𝓻𝓷𝓪𝓶𝓮>
 
-𝐌𝐑𝐚𝐢𝐝: **ʟᴏᴠᴇ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ.**
-  1) {hl}mraid <count> <username>
-  2) {hl}mraid <count> <reply to user>
+𝓜𝓡𝓐𝓘𝓓: **𝓛𝓞𝓥𝓔 𝓡𝓐𝓘𝓓 𝓞𝓝 𝓤𝓢𝓔𝓡**
+  1) {hl}𝓜𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓾𝓼𝓮𝓻𝓷𝓪𝓶𝓮>
+  2) {hl}𝓜𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓻𝓮𝓹𝓵𝔂 𝓽𝓸 𝓾𝓼𝓮𝓻>
 
-𝐒𝐑𝐚𝐢𝐝: **ꜱʜᴀʏᴀʀɪ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ.**
-  1) {hl}sraid <count> <username>
-  2) {hl}sraid <count> <reply to user>
+𝓢𝓡𝓐𝓘𝓓: **𝓢𝓗𝓐𝓨𝓐𝓡𝓘 𝓡𝓐𝓘𝓓 𝓞𝓝 𝓤𝓢𝓔𝓡**
+  1) {hl}𝓢𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓾𝓼𝓮𝓻𝓷𝓪𝓶𝓮>
+  2) {hl}𝓢𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓻𝓮𝓹𝓵𝔂 𝓽𝓸 𝓾𝓼𝓮𝓻>
 
-𝐂𝐑𝐚𝐢𝐝: **ᴀʙᴄᴅ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ.**
-  1) {hl}craid <count> <username>
-  2) {hl}craid <count> <reply to user>
+𝓒𝓡𝓐𝓘𝓓: **𝓐𝓑𝓒𝓓 𝓡𝓐𝓘𝓓 𝓞𝓝 𝓤𝓢𝓔𝓡**
+  1) {hl}𝓒𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓾𝓼𝓮𝓻𝓷𝓪𝓶𝓮>
+  2) {hl}𝓒𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓻𝓮𝓹𝓵𝔂 𝓽𝓸 𝓾𝓼𝓮𝓻>
 
 
-**© @PyXen**
+**@Lucky9486**
 """
 
 spam_msg = f"""
-**» ꜱᴘᴀᴍ ᴄᴏᴍᴍᴀɴᴅꜱ:**
+**» 𝓢𝓟𝓐𝓜 𝓒𝓞𝓜𝓜𝓐𝓝𝓓𝓢:**
 
-𝗦𝗽𝗮𝗺: **ꜱᴘᴀᴍꜱ ᴀ ᴍᴇꜱꜱᴀɢᴇ.**
-  1) {hl}spam <count> <message to spam> (you can reply any message if you want bot to reply that message and do spamming)
-  2) {hl}spam <count> <replying any message>
+𝓢𝓟𝓐𝓜: **𝓢𝓟𝓐𝓜𝓢 𝓐 𝓜𝓔𝓢𝓢𝓐𝓖𝓔**
+  1) {hl}𝓢𝓟𝓐𝓜 <𝓬𝓸𝓾𝓷𝓽> <𝓶𝓮𝓼𝓼𝓪𝓰𝓮 𝓽𝓸 𝓼𝓹𝓪𝓶>
+  2) {hl}𝓢𝓟𝓐𝓜 <𝓬𝓸𝓾𝓷𝓽> <𝓻𝓮𝓹𝓵𝔂𝓲𝓷𝓰 𝓪𝓷𝔂 𝓶𝓮𝓼𝓼𝓪𝓰𝓮>
 
-𝗣𝗼𝗿𝗻𝗦𝗽𝗮𝗺: **ᴘᴏʀᴍᴏɢʀᴀᴘʜʏ ꜱᴘᴀᴍ.**
-  1) {hl}pspam <count>
+𝓟𝓞𝓡𝓝𝓢𝓟𝓐𝓜: **𝓟𝓞𝓡𝓜𝓞𝓖𝓡𝓐𝓟𝓗𝓨 𝓢𝓟𝓐𝓜**
+  1) {hl}𝓟𝓢𝓟𝓐𝓜 <𝓬𝓸𝓾𝓷𝓽>
 
-𝗛𝗮𝗻𝗴: **ꜱᴘᴀᴍꜱ ʜᴀɴɢɪɴɢ ᴍᴇꜱꜱᴀɢᴇ ꜰᴏʀ ɢɪᴠᴇɴ ᴄᴏᴜɴᴛᴇʀ.**
-  1) {hl}hang <counter>
+𝓗𝓐𝓝𝓖: **𝓢𝓟𝓐𝓜𝓢 𝓗𝓐𝓝𝓖𝓘𝓝𝓖 𝓜𝓔𝓢𝓢𝓐𝓖𝓔 𝓕𝓞𝓡 𝓖𝓘𝓥𝓔𝓝 𝓒𝓞𝓤𝓝𝓣𝓔𝓡**
+  1) {hl}𝓗𝓐𝓝𝓖 <𝓬𝓸𝓾𝓷𝓽>
 
 
-** © @PyXen**
+**@Lucky9486**
 """                     
            
            
@@ -129,20 +130,20 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-                Button.inline("• ʀᴀɪᴅ •", data="raid")
+                Button.inline("• 𝓢𝓟𝓐𝓜 •", data="spam"),
+                Button.inline("• 𝓡𝓐𝓘𝓓 •", data="raid")
               ],
               [
-                Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+                Button.inline("• 𝓔𝓧𝓣𝓡𝓐 •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
+                Button.url("• 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 •", "https://t.me/Lucky9486"),
+                Button.url("• 𝓢𝓤𝓟𝓟𝓞𝓡𝓣 •", "-1001962334387")
               ]
             ]
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @PyXen", cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @Lucky9486", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -158,10 +159,10 @@ async def helpback(event):
 async def help_spam(event):
     if event.query.user_id in SUDO_USERS:    
         await event.edit(spam_msg,
-              buttons=[[Button.inline("< Back", data="help_back"),],],
+              buttons=[[Button.inline("< 𝓑𝓪𝓬𝓴", data="𝓱𝓮𝓵𝓹_𝓫𝓪𝓬𝓴"),],],
               ) 
     else:
-        await event.answer("Make Your Own Altron Bots !! @PyXen", cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @Lucky9486", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -177,10 +178,10 @@ async def help_spam(event):
 async def help_raid(event):
     if event.query.user_id in SUDO_USERS:
         await event.edit(raid_msg,
-            buttons=[[Button.inline("< Back", data="help_back"),],],
+            buttons=[[Button.inline("< 𝓑𝓪𝓬𝓴", data="𝓱𝓮𝓵𝓹_𝓫𝓪𝓬𝓴"),],],
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @PyXen", cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @Lucky9486", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -196,7 +197,7 @@ async def help_raid(event):
 async def help_extra(event):
     if event.query.user_id in SUDO_USERS:
         await event.edit(extra_msg,
-            buttons=[[Button.inline("< Back", data="help_back"),],],
+            buttons=[[Button.inline("< 𝓑𝓪𝓬𝓴", data="𝓱𝓮𝓵𝓹_𝓫𝓪𝓬𝓴"),],],
             )
     else:
-        await event.answer("Make Your Own Altron Bots !! @PyXen", cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @Lucky9486", cache_time=0, alert=True)
