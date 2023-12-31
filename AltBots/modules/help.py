@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• 𝓔𝓧𝓣𝓡𝓐 •", data="extra")
     ],
     [
-      Button.url("• 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 •", "https://t.me/Lucky9486"),
-      Button.url("• 𝓢𝓤𝓟𝓟𝓞𝓡𝓣 •", "https://t.me/UNI_INDIA_0000")
+      Button.url("• 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 •", "https://t.me/KANNU_XD"),
+      Button.url("• 𝓢𝓤𝓟𝓟𝓞𝓡𝓣 •", "https://t.me/UNI_INDIA_0008")
     ]
   ]
 
@@ -138,7 +138,7 @@ async def helpback(event):
               ],
               [
                 Button.url("• 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 •", "https://t.me/Lucky9486"),
-                Button.url("• 𝓢𝓤𝓟𝓟𝓞𝓡𝓣 •", "-1001962334387")
+                Button.url("• 𝓢𝓤𝓟𝓟𝓞𝓡𝓣 •", "https://t.me/UNI_INDIA_0008")
               ]
             ]
           )
