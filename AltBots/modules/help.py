@@ -143,7 +143,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @rasedidstore, cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @rasedidstore", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
