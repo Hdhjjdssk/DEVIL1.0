@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"𝓓𝓔𝓥𝓘𝓛 𝓧 𝓗𝓔𝓛𝓟 𝓜𝓔𝓝𝓤 🍷\n\n» **𝓒𝓛𝓘𝓒𝓚 𝓞𝓝 𝓑𝓔𝓛𝓞𝓦 𝓑𝓤𝓣𝓣𝓞𝓝𝓢 𝓕𝓞𝓡 𝓗𝓔𝓛𝓟**\n» **𝓓𝓔𝓥𝓔𝓛𝓞𝓟𝓔𝓡: KUNAL 🍷**"
+HELP_STRING = f"𝓓𝓔𝓥𝓘𝓛 𝓧 𝓗𝓔𝓛𝓟 𝓜𝓔𝓝𝓤 🍷\n\n» **𝓒𝓛𝓘𝓒𝓚 𝓞𝓝 𝓑𝓔𝓛𝓞𝓦 𝓑𝓤𝓣𝓣𝓞𝓝𝓢 𝓕𝓞𝓡 𝓗𝓔𝓛𝓟**\n» **𝓓𝓔𝓥𝓔𝓛𝓞𝓟𝓔𝓡: @KANU_XD 🍷**"
 
 HELP_BUTTON = [
     [
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/37f245cb99eb19233576e.jpg",
+              "https://graph.org/file/0fba871849965974d8ddb.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
