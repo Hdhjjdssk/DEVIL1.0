@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"𝓓𝓔𝓥𝓘𝓛 𝓧 𝓗𝓔𝓛𝓟 𝓜𝓔𝓝𝓤 🍷\n\n» **𝓒𝓛𝓘𝓒𝓚 𝓞𝓝 𝓑𝓔𝓛𝓞𝓦 𝓑𝓤𝓣𝓣𝓞𝓝𝓢 𝓕𝓞𝓡 𝓗𝓔𝓛𝓟**\n» **𝓓𝓔𝓥𝓔𝓛𝓞𝓟𝓔𝓡: @Lucky9486**"
+HELP_STRING = f"𝓓𝓔𝓥𝓘𝓛 𝓧 𝓗𝓔𝓛𝓟 𝓜𝓔𝓝𝓤 🍷\n\n» **𝓒𝓛𝓘𝓒𝓚 𝓞𝓝 𝓑𝓔𝓛𝓞𝓦 𝓑𝓤𝓣𝓣𝓞𝓝𝓢 𝓕𝓞𝓡 𝓗𝓔𝓛𝓟**\n» **𝓓𝓔𝓥𝓔𝓛𝓞𝓟𝓔𝓡: KUNAL 🍷**"
 
 HELP_BUTTON = [
     [
@@ -14,7 +14,7 @@ HELP_BUTTON = [
       Button.inline("• 𝓔𝓧𝓣𝓡𝓐 •", data="extra")
     ],
     [
-      Button.url("• 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 •", "https://t.me/KANNU_XD"),
+      Button.url("• 𝓖𝓡𝓞𝓤𝓟 •", "https://t.me/FriendCastel"),
       Button.url("• 𝓢𝓤𝓟𝓟𝓞𝓡𝓣 •", "https://t.me/UNI_INDIA_0008")
     ]
   ]
@@ -61,7 +61,7 @@ extra_msg = f"""
   2) {hl}𝓛𝓔𝓐𝓥𝓔 : 𝓣𝓨𝓟𝓔 𝓘𝓝 𝓣𝓗𝓔 𝓖𝓡𝓞𝓤𝓟 𝓑𝓞𝓣 𝓦𝓘𝓛𝓛 𝓐𝓤𝓣𝓞 𝓛𝓔𝓐𝓥𝓔 𝓣𝓗𝓐𝓣 𝓖𝓡𝓞𝓤𝓟
 
 
-**@Lucky9486**
+**@rasedidstore**
 """
 
                  
@@ -93,7 +93,7 @@ raid_msg = f"""
   2) {hl}𝓒𝓡𝓐𝓘𝓓 <𝓬𝓸𝓾𝓷𝓽> <𝓻𝓮𝓹𝓵𝔂 𝓽𝓸 𝓾𝓼𝓮𝓻>
 
 
-**@Lucky9486**
+**@rasedidstore**
 """
 
 spam_msg = f"""
@@ -110,7 +110,7 @@ spam_msg = f"""
   1) {hl}𝓗𝓐𝓝𝓖 <𝓬𝓸𝓾𝓷𝓽>
 
 
-**@Lucky9486**
+**@rasedidstore**
 """                     
            
            
@@ -137,13 +137,13 @@ async def helpback(event):
                 Button.inline("• 𝓔𝓧𝓣𝓡𝓐 •", data="extra")
               ],
               [
-                Button.url("• 𝓒𝓗𝓐𝓝𝓝𝓔𝓛 •", "https://t.me/Lucky9486"),
+                Button.url("• 𝓖𝓡𝓞𝓤𝓟 •", "https://t.me/FriendCastel"),
                 Button.url("• 𝓢𝓤𝓟𝓟𝓞𝓡𝓣 •", "https://t.me/UNI_INDIA_0008")
               ]
             ]
           )
     else:
-        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @Lucky9486", cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @rasedidstore, cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -162,7 +162,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< 𝓑𝓪𝓬𝓴", data="𝓱𝓮𝓵𝓹_𝓫𝓪𝓬𝓴"),],],
               ) 
     else:
-        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @Lucky9486", cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @rasedidstore", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -181,7 +181,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< 𝓑𝓪𝓬𝓴", data="𝓱𝓮𝓵𝓹_𝓫𝓪𝓬𝓴"),],],
           )
     else:
-        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @Lucky9486", cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @rasedidstore", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -200,4 +200,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< 𝓑𝓪𝓬𝓴", data="𝓱𝓮𝓵𝓹_𝓫𝓪𝓬𝓴"),],],
             )
     else:
-        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @Lucky9486", cache_time=0, alert=True)
+        await event.answer("𝓜𝓐𝓚𝓔 𝓨𝓞𝓤𝓡 𝓞𝓦𝓝 𝓓𝓔𝓥𝓘𝓛 𝓧 𝓑𝓞𝓣𝓢 !! @rasedidstore", cache_time=0, alert=True)
