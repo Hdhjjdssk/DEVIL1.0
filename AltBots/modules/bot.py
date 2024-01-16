@@ -21,7 +21,7 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"⚡")
+        altron = await e.reply(f"✨")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
         await altron.edit(f"⏤͟͞ ƉɆ⩔ƗⱠ 🍷\n» `{mp} ᴍꜱ`")
@@ -117,14 +117,14 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"𝓣𝓗𝓘𝓢 𝓤𝓢𝓔𝓡 𝓘𝓢 𝓐𝓛𝓡𝓔𝓐𝓓𝓨 𝓐 𝓢𝓤𝓓𝓞 𝓤𝓢𝓔𝓡 💕 !!")
+            await ok.edit(f"𝘛𝘏𝘐𝘚 𝘜𝘚𝘌𝘙 𝘐𝘚 𝘈𝘓𝘙𝘌𝘈𝘋𝘠 𝘈 𝘚𝘜𝘋𝘖 𝘜𝘚𝘌𝘙 💕 !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `𝓡𝓔𝓢𝓣𝓐𝓡𝓣𝓘𝓝𝓖 𝓑𝓞𝓣 ⌛ ...`")
+            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `𝘙𝘌𝘚𝘛𝘈𝘙𝘛𝘐𝘕𝘎 𝘉𝘖𝘛 ⌛ ...`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("»𝓢𝓞𝓡𝓡𝓨, 𝓞𝓝𝓛𝓨 𝓞𝓦𝓝𝓔𝓡 𝓒𝓐𝓝 𝓐𝓒𝓒𝓔𝓢𝓢 𝓣𝓗𝓘𝓢 𝓒𝓞𝓜𝓜𝓐𝓝𝓓 🤖 ")
+        await event.reply("»𝘚𝘙𝘠, 𝘖𝘕𝘓𝘠 𝘖𝘞𝘕𝘌𝘙 𝘊𝘈𝘕 𝘈𝘊𝘊𝘌𝘚𝘚 𝘛𝘏𝘐𝘚 𝘊𝘔𝘋 🔰 ")
