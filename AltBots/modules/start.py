@@ -33,8 +33,8 @@ async def start(event):
         AltBot = await event.client.get_me()
         bot_name = AltBot.first_name
         bot_id = AltBot.id
-        TEXT = f"**𝘏𝘌𝘠 💕​[{event.sender.first_name}],\n\n𝘐 𝘈𝘔[{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"​
-        TEXT += f"» **𝘔𝘠 𝘋𝘌𝘝 🫂: [⏤͟͞Ꮴɪʟʟᴀɪɴ [AFK] 🍷](https://t.me/KANU_XD)**\n\n"
+        TEXT = f"**ʜᴇʏ 💕​[{event.sender.first_name}],\n\nɪ ᴀᴍ[{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"​
+        TEXT += f"» **ᴍʏ ᴅᴇᴠ 🫂: [⏤͟͞Ꮴɪʟʟᴀɪɴ [AFK] 🍷](https://t.me/KANU_XD)**\n\n"
         await event.client.send_file(
                     event.chat_id,
                     "https://graph.org/file/37f245cb99eb19233576e.jpg",
