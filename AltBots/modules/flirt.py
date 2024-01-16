@@ -1,25 +1,19 @@
 import asyncio
-
 from random import choice
-
 from telethon import events
-
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
 from AltBots.data import FLIRT
 
-FLIRT = []
-
-
-@X1.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X2.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X3.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X4.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X5.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X6.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X7.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X8.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X9.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
-@X10.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X2.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X3.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X4.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X5.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X6.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X7.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X8.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X9.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
+@X10.on(events.NewMessage(incoming=True, pattern=r"\%flirt(?: |$)(.*)" % hl))
 async def flirt(e):
      if e.sender_id in SUDO_USERS:
         xraid = e.text.split(" ", 2)
@@ -38,7 +32,7 @@ async def flirt(e):
             counter = int(xraid[1])
             username = f"[{first_name}](tg://user?id={uid})"
             for _ in range(counter):
-                reply = choice(SRAID)
+                reply = choice(FLIRT)
                 caption = f"{username} {reply}"
                 await e.client.send_message(e.chat_id, caption)
                 await asyncio.sleep(0.1)
