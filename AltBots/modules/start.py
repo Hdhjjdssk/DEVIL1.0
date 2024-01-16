@@ -34,7 +34,7 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ 💕[{event.sender.first_name}]({event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠ​ 🫂: [⏤͟͞Ꮴɪʟʟᴀɪɴ™[AFK] 🍷](https://t.me/KANU_XD)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠ​ 🫂: [⏤͟͞Ꮴɪʟʟᴀɪɴ](https://t.me/KANU_XD)**\n\n"
         TEXT += f"» **ᴠᴇʀsɪᴏɴ ⚙️:** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ 🐍:** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ 🔰:** `{__version__}`\n━━━━━━━━━━━━━━━━━"
