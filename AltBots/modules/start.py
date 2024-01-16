@@ -33,8 +33,7 @@ async def start(event):
         AltBot = await event.client.get_me()
         bot_name = AltBot.first_name
         bot_id = AltBot.id
-        TEXT = f"**𝘏𝘌𝘠 💕​**"
-        TEXT = f"**𝘐 𝘈𝘔 𝘋𝘌𝘝𝘐𝘓 𝘟 🍷**"​
+        TEXT = f"**𝘏𝘌𝘠 💕​[{event.sender.first_name}],\n\n𝘐 𝘈𝘔[{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"​
         TEXT += f"» **𝘔𝘠 𝘋𝘌𝘝 🫂: [⏤͟͞Ꮴɪʟʟᴀɪɴ [AFK] 🍷](https://t.me/KANU_XD)**\n\n"
         await event.client.send_file(
                     event.chat_id,
