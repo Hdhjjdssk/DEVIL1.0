@@ -20,15 +20,12 @@ from datetime import datetime
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 
 async def alive(e):
-if e.sender_id in SUDO_USERS:
-altron = await message.edit("`⚡`")
-await asyncio.sleep(0.3)
-ser = (await client.get_me()).mention
-upt = get_uptime(time.time())
-await altron.edit("`⏤͟͞ ƉɆ⩔ƗⱠ 🍷`")
-await asyncio.sleep(0.5)
-await altron.edit("`✨`")
-
+    if e.sender_id in SUDO_USERS:
+        start = datetime.now()
+        altron = await e.reply(f"👀")
+        end = datetime.now()
+        mp = (end - start).microseconds / 1000
+        await altron.edit(f"⏤͟͞ ƉɆ⩔ƗⱠ 🍷\n» `{mp} ᴍꜱ`")
        aliver = f"""
 ╭────────x────────๏
 ╰๏**ᴅᴇᴠɪʟ X ɪꜱ ᴀʟɪᴠᴇ 💕**
