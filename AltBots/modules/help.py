@@ -150,7 +150,7 @@ async def helpback(event):
               ],
               [
                 Button.inline("✦ 𝘌𝘟𝘛𝘙𝘈 ✦", data="extra")
-                Button.inline("✦ 𝘖𝘞𝘕𝘌𝘙 ✦", data="owner")
+                Button.inline("✦ 𝘖𝘞𝘕𝘌𝘙 ✦", data="owner"),
               ],
               [
                 Button.url("✦ 𝘎𝘙𝘖𝘜𝘗 ✦", "https://t.me/FriendCastel"),
