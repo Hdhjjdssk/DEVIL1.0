@@ -18,7 +18,7 @@ HELP_BUTTON = [
       Button.inline("✦ 𝘙𝘈𝘐𝘋 ✦", data="raid")
     ],
     [
-      Button.inline("✦ 𝘌𝘟𝘛𝘙𝘈 ✦", data="extra")
+      Button.inline("✦ 𝘌𝘟𝘛𝘙𝘈 ✦", data="extra"),
       Button.inline("✦ 𝘖𝘞𝘕𝘌𝘙 ✦", data="owner")
     ],
     [
