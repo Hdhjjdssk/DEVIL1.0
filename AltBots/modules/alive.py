@@ -1,32 +1,31 @@
-import sys
-import heroku3
-from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, CMD_HNDLR as hl
-from os import execl, getenv
-from telethon import events
-from datetime import datetime
+from telethon import __version__, events, Button
+
+from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 
-@X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X3.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X4.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X5.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X6.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X7.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X8.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X9.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-@X10.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
-async def alive(e):
-    if e.sender_id in SUDO_USERS:
-        altron = await e.reply(f"⚡")
-        await altron.edit(f"""
-**ᴅᴇᴠɪʟ x ɪꜱ ᴀʟɪᴠᴇ 🍷**
-**━━━━━━━━━━━━━━━━━━━━**
-**ʜɪ 👀** :『**ɪ ᴀᴍ ᴅᴇᴠɪʟ X 🍷**』
-┏━━━━━━━━━━━━━━━━━━━
-┣•» **ᴘʏᴛʜᴏɴ 🐍:** `3.11.3`
-┣•» **ᴠᴇʀꜱɪᴏɴ ⚙️:** `M3.4`
-┣•» **ɢʀᴏᴜᴘ 🥂:** [ᴊᴏɪɴ](https://t.me/UNI_INDIA_0008)**
-┣•» **ᴅᴇᴠ ⚜️:** [⏤͟͞Ꮴɪʟʟᴀɪɴ](https://t.me/KANU_XD)**
-┗━━━━━━━━━━━━━━━━━━━
-""")
+@X1.on(events.NewMessage(pattern="!alive"))
+@X2.on(events.NewMessage(pattern="!alive"))
+@X3.on(events.NewMessage(pattern="!alive"))
+@X4.on(events.NewMessage(pattern="!alive"))
+@X5.on(events.NewMessage(pattern="!alive"))
+@X6.on(events.NewMessage(pattern="!alive"))
+@X7.on(events.NewMessage(pattern="!alive"))
+@X7.on(events.NewMessage(pattern="!alive"))
+@X8.on(events.NewMessage(pattern="!alive"))
+@X9.on(events.NewMessage(pattern="!alive"))
+@X10.on(events.NewMessage(pattern="!alive"))
+async def start(event):
+        AltBot = await event.client.get_me()
+        TEXT = f"**ᴅᴇᴠɪʟ x ɪꜱ ᴀʟɪᴠᴇ 🍁**\n"
+        TEXT += f"**ʜɪ 💕** :『**ɪ ᴀᴍ ᴅᴇᴠɪʟ X 🍷**』\n"
+        TEXT += f"┏━━━━━━━━━━━━━━━━\n"
+        TEXT += f"┣•» **ᴘʏᴛʜᴏɴ 🐍:** `3.11.3`\n"
+        TEXT += f"┣•» **ᴠᴇʀꜱɪᴏɴ ⚙️:** `M3.4`"
+        TEXT += f"┣•» **ɢʀᴏᴜᴘ 💫:『ᴀᴋᴀᴛꜱᴜᴋɪ ❤️‍🩹』(https://t.me/UNI_INDIA_0008)**\n"
+        TEXT += f"┣•» **ᴅᴇᴠ 🫂:『⏤͟͞Ꮴɪʟʟᴀɪɴ 🍷』(https://t.me/KANU_XD)**\n"
+        TEXT += f"┗━━━━━━━━━━━━━━━━"
+        await event.client.send_file(
+                    event.chat_id,
+                    "https://graph.org/file/b0c9f1dca2f5d3ce84835.jpg",
+                    caption=TEXT, 
+                )
