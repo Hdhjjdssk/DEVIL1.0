@@ -21,8 +21,8 @@ async def start(event):
         TEXT += f"┏━━━━━━━━━━━━━━━━\n"
         TEXT += f"┣•» **ᴘʏᴛʜᴏɴ 🐍:** `3.11.3`\n"
         TEXT += f"┣•» **ᴠᴇʀꜱɪᴏɴ ⚙️:** `M3.4`"
-        TEXT += f"┣•» **ɢʀᴏᴜᴘ 💫:『ᴀᴋᴀᴛꜱᴜᴋɪ ❤️‍🩹』(https://t.me/UNI_INDIA_0008)**\n"
-        TEXT += f"┣•» **ᴅᴇᴠ 🫂:『⏤͟͞Ꮴɪʟʟᴀɪɴ 🍷』(https://t.me/KANU_XD)**\n"
+        TEXT += f"┣•» **ɢʀᴏᴜᴘ 💫:[『ᴀᴋᴀᴛꜱᴜᴋɪ ❤️‍🩹』](https://t.me/UNI_INDIA_0008)**\n"
+        TEXT += f"┣•» **ᴅᴇᴠ 🫂:[『⏤͟͞Ꮴɪʟʟᴀɪɴ 🍷』](https://t.me/KANU_XD)**\n"
         TEXT += f"┗━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
