@@ -4,7 +4,11 @@
 
 <h4 align="center"> 𝘼 𝙋𝙊𝙒𝙀𝙍𝙁𝙐𝙇𝙇 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏</h4>
 
-<p align="center"><a href="https://t.me/UNI_INDIA_0000"><img src="https://graph.org/file/710f477fcfd0128a4110e.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/UNI_INDIA_0000"></a></p>
+
+<p align="center">
+  <img src="./logo.jpg" alt="Logo">
+</p>
 
 <p align="center">──「 𝘿𝙀𝙑𝙄𝙇 𝙓 🍷」──</p>
 
