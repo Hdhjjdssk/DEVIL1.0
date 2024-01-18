@@ -4,13 +4,9 @@
 
 <h4 align="center"> 𝘼 𝙋𝙊𝙒𝙀𝙍𝙁𝙐𝙇𝙇 𝙎𝙋𝘼𝙈 𝘽𝙊𝙏</h4>
 
-<p align="center"><a href="https://t.me/UNI_INDIA_0000"><img src="https://graph.org/file/f52a31091bcd093d8542e.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/UNI_INDIA_0000"><img src="https://graph.org/file/3418b71e7ed83c1f2bb88.jpg" width="400"></a></p>
 
 <p align="center">──「 𝘿𝙀𝙑𝙄𝙇 𝙓 🍷」──</p>
-
-___________________________________________________________________________________________
-=================================== 𝘿𝙀𝙑𝙄𝙇 𝙓 🍷============================================
-____________________________________________________________________________________________
 
 # REQUIRED VARIBLES & DESCRIPTION
 
@@ -43,7 +39,7 @@ Required Variable | Description
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/APL9210/DEVIL-X)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/APL9210/DEVIL1.0)
 
 </details>
 
@@ -52,7 +48,7 @@ Required Variable | Description
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
 <br>
 
-<a href="https://t.me/UNI_INDIA_0000"><img src="https://img.shields.io/badge/Join-Telegram%20Group-red.svg?logo=Telegram"></a>
+<a href="https://t.me/UNI_INDIA_0008"><img src="https://img.shields.io/badge/Join-Telegram%20Group-red.svg?logo=Telegram"></a>
 
 </details>
 
