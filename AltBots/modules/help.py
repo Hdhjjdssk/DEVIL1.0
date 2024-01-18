@@ -4,13 +4,13 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 
 
 HELP_STRING = f"""
-╭────────乂────────๏
-╰๏**𝘋𝘌𝘝𝘐𝘓 𝘟 𝘏𝘌𝘓𝘗 𝘔𝘌𝘕𝘜 🍷💕**
-╰๏
-╰๏**𝘊𝘓𝘐𝘊𝘒 𝘖𝘕 𝘉𝘌𝘓𝘖𝘞 𝘉𝘜𝘛𝘛𝘖𝘕𝘚 𝘍𝘖𝘙 𝘏𝘌𝘓𝘗 🍁**
-╰๏
-╰๏**𝘋𝘌𝘝 💕: @KANU_XD 🍻**
-╰────────乂────────๏
+╭───────ʜᴇʟᴘ ᴍᴇɴᴜ─────๏
+┣𝘋𝘌𝘝𝘐𝘓 𝘟 𝘏𝘌𝘓𝘗 𝘔𝘌𝘕𝘜 🍷💕
+┣
+┣𝘊𝘓𝘐𝘊𝘒 𝘖𝘕 𝘉𝘌𝘓𝘖𝘞 𝘉𝘜𝘛𝘛𝘖𝘕𝘚 𝘍𝘖𝘙 𝘏𝘌𝘓𝘗 💫
+┣
+┣𝘋𝘌𝘝 💕: @KANU_XD 🍻
+╰──────────乂─────────๏
 """
 HELP_BUTTON = [
     [
@@ -22,8 +22,7 @@ HELP_BUTTON = [
       Button.inline("✦ 𝘖𝘞𝘕𝘌𝘙 ✦", data="owner")
     ],
     [
-      Button.url("✦ 𝘎𝘙𝘖𝘜𝘗 ✦", "https://t.me/FriendCastel"),
-      Button.url("✦ 𝘚𝘜𝘗𝘗𝘖𝘙𝘛 ✦", "https://t.me/UNI_INDIA_0008")
+      Button.url("✦ 𝘎𝘙𝘖𝘜𝘗 ✦", "https://t.me/UNI_INDIA_0008")
     ]
   ]
 
@@ -153,8 +152,7 @@ async def helpback(event):
                 Button.inline("✦ 𝘖𝘞𝘕𝘌𝘙 ✦", data="owner")
               ],
               [
-                Button.url("✦ 𝘎𝘙𝘖𝘜𝘗 ✦", "https://t.me/FriendCastel"),
-                Button.url("✦ 𝘚𝘜𝘗𝘗𝘖𝘙𝘛 ✦", "https://t.me/UNI_INDIA_0008")
+                Button.url("✦ 𝘎𝘙𝘖𝘜𝘗 ✦", "https://t.me/UNI_INDIA_0008")
               ]
             ]
           )
