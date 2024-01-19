@@ -75,7 +75,7 @@ async def ping(e):
         await asyncio.sleep(0.1)
         await altron.edit("**🟥🟨🟩**")
         await asyncio.sleep(0.3)
-         await altron.edit(f"⏤͟͞ 𝘿𝙀𝙑𝙄𝙇 🍷\n» `{mp} ᴍꜱ`")
+        await altron.edit(f"⏤͟͞ 𝘿𝙀𝙑𝙄𝙇 🍷\n» `{mp} ᴍꜱ`")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
