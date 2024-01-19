@@ -22,7 +22,6 @@ async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
         altron = await e.reply(f"✨")
-        await asyncio.sleep(0.2)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
         await altron.edit("**.**")
@@ -36,7 +35,7 @@ async def ping(e):
         await altron.edit("**. . . . .**")
         await asyncio.sleep(0.1)
         await altron.edit("**⚡**")
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         await altron.edit("**POWERING THE DEVIL ⚡🍷**")
         await asyncio.sleep(0.1)
         await altron.edit("**⏤ **")
@@ -74,7 +73,7 @@ async def ping(e):
         await altron.edit("**⏤͟͞ 𝘿𝙀𝙑𝙄𝙇 🍷**")
         await asyncio.sleep(0.1)
         await altron.edit("**🟥🟨🟩**")
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(0.1)
         await altron.edit(f"⏤͟͞ 𝘿𝙀𝙑𝙄𝙇 🍷\n» `{mp} ᴍꜱ`")
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
