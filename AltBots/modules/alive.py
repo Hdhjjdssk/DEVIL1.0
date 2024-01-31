@@ -17,7 +17,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 async def start(event):
         AltBot = await event.client.get_me()
         TEXT = f"**ᴅᴇᴠɪʟ x ɪꜱ ᴀʟɪᴠᴇ 🍁**\n"
-        TEXT += f"**ʜɪ 💕** :『**ɪ ᴀᴍ ᴅᴇᴠɪʟ X 🍷**』\n"
+        TEXT += f"**ʜɪ 💕**\n"
         TEXT += f"┏━━━━━━━━━━━━━━━━\n"
         TEXT += f"┣•» **ᴘʏᴛʜᴏɴ 🐍:** `3.11.3`\n"
         TEXT += f"┣•» **ᴠᴇʀꜱɪᴏɴ ⚙️:** `M3.4`\n"
@@ -26,6 +26,6 @@ async def start(event):
         TEXT += f"┗━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://graph.org/file/b0c9f1dca2f5d3ce84835.jpg",
+                    "https://graph.org/file/c1309c319bdca82c17b3a.jpg",
                     caption=TEXT, 
                 )
