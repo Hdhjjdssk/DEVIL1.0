@@ -5,14 +5,14 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline("✦ 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚 ✦", data="help_back")
+        Button.inline("❖ 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚 ❖", data="help_back")
     ],
     [
-        Button.url("✦ 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 ✦", "https://t.me/rasedidstore"),
-        Button.url("✦ 𝘚𝘜𝘗𝘗𝘖𝘙𝘛 ✦", "https://t.me/UNI_INDIA_0008")
+        Button.url("❖ 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 ❖", "https://t.me/rasedidstore"),
+        Button.url("❖ 𝘚𝘜𝘗𝘗𝘖𝘙𝘛 ❖", "https://t.me/UNI_INDIA_0008")
     ],
     [
-        Button.url("✦ 𝘙𝘌𝘗𝘖 ✦", "https://t.me/FriendCastel")
+        Button.url("❖ 𝘙𝘌𝘗𝘖 ❖", "https://t.me/FriendCastel")
     ]
 ]
 
