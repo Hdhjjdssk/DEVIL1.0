@@ -14,15 +14,15 @@ HELP_STRING = f"""
 """
 HELP_BUTTON = [
     [
-      Button.inline("✦ 𝘚𝘗𝘈𝘔 ✦", data="spam"),
-      Button.inline("✦ 𝘙𝘈𝘐𝘋 ✦", data="raid")
+      Button.inline("❖ 𝘚𝘗𝘈𝘔 ❖", data="spam"),
+      Button.inline("❖ 𝘙𝘈𝘐𝘋 ❖", data="raid")
     ],
     [
-      Button.inline("✦ 𝘌𝘟𝘛𝘙𝘈 ✦", data="extra"),
-      Button.inline("✦ 𝘖𝘞𝘕𝘌𝘙 ✦", data="owner")
+      Button.inline("❖ 𝘌𝘟𝘛𝘙𝘈 ❖", data="extra"),
+      Button.inline("❖ 𝘖𝘞𝘕𝘌𝘙 ❖", data="owner")
     ],
     [
-      Button.url("✦ 𝘎𝘙𝘖𝘜𝘗 ✦", "https://t.me/UNI_INDIA_0008")
+      Button.url("❖ 𝘎𝘙𝘖𝘜𝘗 ❖", "https://t.me/UNI_INDIA_0008")
     ]
   ]
 
@@ -144,15 +144,15 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("✦ 𝘚𝘗𝘈𝘔 ✦", data="spam"),
-                Button.inline("✦ 𝘙𝘈𝘐𝘋 ✦", data="raid")
+                Button.inline("❖ 𝘚𝘗𝘈𝘔 ❖", data="spam"),
+                Button.inline("❖ 𝘙𝘈𝘐𝘋 ❖", data="raid")
               ],
               [
-                Button.inline("✦ 𝘌𝘟𝘛𝘙𝘈 ✦", data="extra"),
-                Button.inline("✦ 𝘖𝘞𝘕𝘌𝘙 ✦", data="owner")
+                Button.inline("❖ 𝘌𝘟𝘛𝘙𝘈 ❖", data="extra"),
+                Button.inline("❖ 𝘖𝘞𝘕𝘌𝘙 ❖", data="owner")
               ],
               [
-                Button.url("✦ 𝘎𝘙𝘖𝘜𝘗 ✦", "https://t.me/UNI_INDIA_0008")
+                Button.url("❖ 𝘎𝘙𝘖𝘜𝘗 ❖", "https://t.me/UNI_INDIA_0008")
               ]
             ]
           )
