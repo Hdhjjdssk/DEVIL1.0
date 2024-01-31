@@ -20,11 +20,11 @@ async def start(event):
         TEXT += f"┏━━━━━━━━━━━━━━━━\n"
         TEXT += f"┣•» **ᴘʏᴛʜᴏɴ 🐍:** `3.11.3`\n"
         TEXT += f"┣•» **ᴠᴇʀꜱɪᴏɴ ⚙️:** `M3.4`\n"
-        TEXT += f"┣•» **ɢʀᴏᴜᴘ 💫:[『ᴀᴋᴀᴛꜱᴜᴋɪ ❤️‍🩹』](https://t.me/UNI_INDIA_0008)**\n"
-        TEXT += f"┣•» **ᴅᴇᴠ 🫂:[『⏤͟͞Ꮴɪʟʟᴀɪɴ 🍷』](https://t.me/KANU_XD)**\n"
+        TEXT += f"┣•» **ɢʀᴏᴜᴘ 💫:[『 ⏤͟͞〲Dᴇᴠɪʟ˹ARC˼🍷』](https://t.me/+dKGCo7oumwYwZDNl)**\n"
+        TEXT += f"┣•» **ᴅᴇᴠ 🫂:[『⏤͟͞〲Dᴇᴠɪʟ 🥀』](https://t.me/KANU_XD)**\n"
         TEXT += f"┗━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://graph.org/file/f52a31091bcd093d8542e.jpg",
+                    "https://graph.org/file/b0c9f1dca2f5d3ce84835.jpg",
                     caption=TEXT, 
                 )
