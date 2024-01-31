@@ -25,6 +25,6 @@ async def start(event):
         TEXT += f"┗━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://graph.org/file/d0ef3469406a651c444d0.mp4",
+                    "https://graph.org/file/f52a31091bcd093d8542e.jpg",
                     caption=TEXT, 
                 )
